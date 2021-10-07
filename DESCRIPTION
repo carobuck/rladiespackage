@@ -1,0 +1,17 @@
+Package: rladiespackage
+Title: Useful Greetings for Rladies
+Version: 0.0.0.9000
+Authors@R: 
+    person("Caro", "Buck", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Functions to generate personalised greetings.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
